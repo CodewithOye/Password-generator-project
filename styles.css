@@ -60,6 +60,8 @@ button {
     color: #ffff;
     background-color: #23235b;
     padding: 10px;
+    border-radius: 10px;
+    
 }
 
 .container-password{
@@ -83,5 +85,6 @@ button:hover{
 .generate{
     padding: 20px;
     border-radius: 10px;
+    border-style: none;
 
 }
