@@ -66,15 +66,17 @@ button {
 
 .container-password{
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: 1fr 1fr ;
     grid-gap: 10px;
     margin-bottom: 15px;
+    align-self: auto;
+    
 }
 
 
-.container-password > div {
+.container-password  div {
     background-color: transparent;
-    align-content: flex start;
+    align-items: start;
 }
 
 button:hover{
@@ -84,7 +86,5 @@ button:hover{
 
 .generate{
     padding: 20px;
-    border-radius: 10px;
-    border-style: none;
 
 }
